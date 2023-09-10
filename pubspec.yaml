@@ -1,0 +1,262 @@
+name: test2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_slimy_card: ^1.0.2
+  readmore: ^2.2.0
+  google_fonts: ^4.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/screens/images/iconsax-broken-user.png
+    - assets/screens/images/iconsax-broken-notification1.png
+    - assets/screens/images/iconsax-broken-messages1.png
+    - assets/screens/images/auto-group-6u9u.png
+    - assets/screens/images/iconsax-broken-google.png
+    - assets/screens/images/iconsax-broken-messages1-oY3.png
+    - assets/screens/images/iconsax-broken-arrowleft.png
+    - assets/screens/images/ellipse-26.png
+    - assets/screens/images/iconsax-broken-eyeslash.png
+    - assets/screens/images/iconsax-linear-addsquare.png
+    - assets/screens/images/iconsax-linear-tickcircle.png
+    - assets/screens/images/iconsax-linear-addsquare-Nyd.png
+    - assets/screens/images/auto-group-cb83.png
+    - assets/screens/images/iconsax-broken-usertag.png
+    - assets/screens/images/ellipse-27.png
+    - assets/screens/images/iconsax-broken-arrowleft-Peo.png
+    - assets/screens/images/iconsax-linear-setting4.png
+    - assets/screens/images/ellipse-27-4BZ.png
+    - assets/screens/images/iconsax-broken-calendar.png
+    - assets/screens/images/urgent-bro.png
+    - assets/screens/images/iconsax-broken-lock1.png
+    - assets/screens/images/iconsax-broken-eyeslash-1ou.png
+    - assets/screens/images/urgent-bro-6Vu.png
+    - assets/screens/images/iconsax-broken-home2.png
+    - assets/screens/images/ellipse-16.png
+    - assets/screens/images/iconsax-broken-notification1-c47.png
+    - assets/screens/images/urgent-bro-xPR.png
+    - assets/screens/images/iconsax-linear-addsquare-cgF.png
+    - assets/screens/images/iconsax-broken-ticksquare.png
+    - assets/screens/images/iconsax-broken-arrowleft-71H.png
+    - assets/screens/images/iconsax-broken-calendar-5AP.png
+    - assets/screens/images/iconsax-broken-messages1-WaT.png
+    - assets/screens/images/iconsax-broken-usertag-dU3.png
+    - assets/screens/images/auto-group-xatf.png
+    - assets/screens/images/auto-group-pcgf.png
+    - assets/screens/images/iconsax-broken-notification1-JhD.png
+    - assets/screens/images/iconsax-linear-addsquare-jbV.png
+    - assets/screens/images/iconsax-linear-searchnormal1.png
+    - assets/screens/images/iconsax-broken-home2-xis.png
+    - assets/screens/images/iconsax-broken-arrowleft-xs1.png
+    - assets/screens/images/ellipse-8-bg.png
+    - assets/screens/images/iconsax-linear-addsquare-sxT.png
+    - assets/screens/images/iconsax-broken-home2-AUF.png
+    - assets/screens/images/iconsax-linear-useradd.png
+    - assets/screens/images/ellipse-36-bg.png
+    - assets/screens/images/ellipse-17-bg.png
+    - assets/screens/images/ellipse-19-bg.png
+    - assets/screens/images/iconsax-broken-calendar-hod.png
+    - assets/screens/images/iconsax-linear-addsquare-hFD.png
+    - assets/screens/images/ellipse-18-bg.png
+    - assets/screens/images/iconsax-linear-lock.png
+    - assets/screens/images/iconsax-linear-arrowdown2.png
+    - assets/screens/images/iconsax-broken-google-2s1.png
+    - assets/screens/images/auto-group-ns8f.png
+    - assets/screens/images/iconsax-linear-arrowdown2-Vkb.png
+    - assets/screens/images/iconsax-broken-calendar-2kX.png
+    - assets/screens/images/iconsax-broken-lock1-a1M.png
+    - assets/screens/images/ellipse-3-bg.png
+    - assets/screens/images/iconsax-linear-arrowdown2-S3Z.png
+    - assets/screens/images/iconsax-broken-edit.png
+    - assets/screens/images/iconsax-linear-edit.png
+    - assets/screens/images/iconsax-linear-logoutcurve.png
+    - assets/screens/images/iconsax-linear-setting2.png
+    - assets/screens/images/iconsax-linear-closesquare.png
+    - assets/screens/images/iconsax-broken-home2-JzK.png
+    - assets/screens/images/iconsax-linear-task.png
+    - assets/screens/images/iconsax-broken-messages1-1tj.png
+    - assets/screens/images/iconsax-linear-edit-xoy.png
+    - assets/screens/images/iconsax-linear-securitycard.png
+    - assets/screens/images/iconsax-linear-edit-gzs.png
+    - assets/screens/images/iconsax-broken-edit-yUB.png
+    - assets/screens/images/iconsax-broken-notification1-vuD.png
+    - assets/screens/images/auto-group-aj55.png
+    - assets/screens/images/ellipse-11-bg.png
+    - assets/screens/images/ellipse-24-bg.png
+    - assets/screens/images/ellipse-22-bg.png
+    - assets/screens/images/ellipse-29-bg.png
+    - assets/screens/images/ellipse-36-bg-1EF.png
+    - assets/screens/images/iconsax-broken-arrowleft-jAF.png
+    - assets/screens/images/ellipse-36-bg-Q9D.png
+    - assets/screens/images/iconsax-broken-edit-66j.png
+    - assets/screens/images/auto-group-vvgo.png
+    - assets/screens/images/iconsax-linear-usertag.png
+    - assets/screens/images/ellipse-2-bg.png
+    - assets/screens/images/auto-group-hgnb.png
+    - assets/screens/images/iconsax-broken-arrowleft-7sV.png
+    - assets/screens/images/iconsax-broken-arrowleft-ecX.png
+    - assets/screens/images/iconsax-linear-closesquare-yeo.png
+    - assets/screens/images/auto-group-due7.png
+    - assets/screens/images/ellipse-36-bg-XiX.png
+    - assets/screens/images/ellipse-28-bg.png
+    - assets/screens/images/ellipse-15-bg.png
+    - assets/screens/images/ellipse-19-bg-NSs.png
+    - assets/screens/images/ellipse-11-bg-jwM.png
+    - assets/screens/images/ellipse-20-bg.png
+    - assets/screens/images/ellipse-23-bg.png
+    - assets/screens/images/ellipse-36-bg-Nmm.png
+    - assets/screens/images/ellipse-36-bg-8LF.png
+    - assets/screens/images/ellipse-22-bg-oU3.png
+    - assets/screens/images/ellipse-13-bg.png
+    - assets/screens/images/ellipse-17-bg-C87.png
+    - assets/screens/images/ellipse-36-bg-wbV.png
+    - assets/screens/images/rectangle-6.png
+    - assets/screens/images/iconsax-broken-messages1-xKZ.png
+    - assets/screens/images/work-in-progress-pana.png
+    - assets/screens/images/ellipse-10-bg.png
+    - assets/screens/images/ellipse-7-bg.png
+    - assets/screens/images/ellipse-26-bg.png
+    - assets/screens/images/ellipse-20-bg-mm1.png
+    - assets/screens/images/ellipse-27-bg.png
+    - assets/screens/images/ellipse-13-bg-gQ7.png
+    - assets/screens/images/ellipse-18-bg-pFR.png
+    - assets/screens/images/ellipse-36-bg-Yx7.png
+    - assets/screens/images/ellipse-36-bg-6ij.png
+    - assets/screens/images/ellipse-36-bg-SXh.png
+    - assets/screens/images/ellipse-1-bg.png
+    - assets/screens/images/iconsax-broken-notification1-qQ3.png
+    - assets/screens/images/ellipse-18-bg-yyy.png
+    - assets/screens/images/ellipse-4-bg.png
+    - assets/screens/images/ellipse-36-bg-qCB.png
+    - assets/screens/images/ellipse-19-bg-DVZ.png
+    - assets/screens/images/ellipse-17-bg-Wuu.png
+    - assets/screens/images/ellipse-5-bg.png
+    - assets/screens/images/ellipse-36-bg-SHm.png
+    - assets/screens/images/ellipse-22-bg-eo9.png
+    - assets/screens/images/ellipse-36-bg-MBm.png
+    - assets/screens/images/ellipse-12-bg.png
+    - assets/screens/images/ellipse-30-bg.png
+    - assets/screens/images/ellipse-36-bg-tcf.png
+    - assets/screens/images/ellipse-21-bg.png
+    - assets/screens/images/ellipse-9-bg.png
+    - assets/screens/images/ellipse-12-bg-nFZ.png
+    - assets/screens/images/iconsax-broken-calendar-Wfy.png
+    - assets/screens/images/iconsax-linear-addsquare-JT1.png
+    - assets/screens/images/iconsax-broken-home2-WJT.png
+    - assets/screens/images/ellipse-36-bg-JjH.png
+    - assets/screens/images/ellipse-23-bg-TrP.png
+    - assets/screens/images/ellipse-36-bg-phM.png
+    - assets/screens/images/ellipse-36-bg-giB.png
+    - assets/screens/images/ellipse-36-bg-Qq5.png
+    - assets/screens/images/ellipse-36-bg-jN7.png
+    - assets/screens/images/ellipse-36-bg-Ew9.png
+    - assets/screens/images/ellipse-6-bg.png
+    - assets/screens/images/ellipse-36-bg-yPu.png
+    - assets/screens/images/ellipse-14-bg.png
+    - assets/screens/images/ellipse-41-bg.png
+    - assets/screens/images/ellipse-40-bg.png
+    - assets/screens/images/ellipse-47-bg.png
+    - assets/screens/images/auto-group-q2q5.png
+    - assets/screens/images/iconsax-linear-searchnormal1-Fsd.png
+    - assets/screens/images/ellipse-45-bg.png
+    - assets/screens/images/iconsax-broken-arrowleft-1mH.png
+    - assets/screens/images/ellipse-38-bg.png
+    - assets/screens/images/ellipse-36-bg-ruu.png
+    - assets/thumbnail/images/.png
+    - assets/screens/images/ellipse-36-bg-XjM.png
+    - assets/screens/images/iconsax-broken-callcalling.png
+    - assets/screens/images/iconsax-broken-elementequal.png
+    - assets/screens/images/iconsax-broken-microphone2.png
+    - assets/screens/images/ellipse-42-bg.png
+    - assets/screens/images/ellipse-44-bg.png
+    - assets/screens/images/ellipse-48-bg.png
+    - assets/screens/images/iconsax-broken-arrowleft-VLB.png
+    - assets/screens/images/ellipse-46-bg.png
+    - assets/screens/images/iconsax-broken-video.png
+    - assets/screens/images/iconsax-broken-send.png
+    - assets/thumbnail/images/mask-group.png
+    - assets/thumbnail/images/-hM9.png
+    - assets/screens/images/ellipse-49-bg.png
+    - assets/thumbnail/images/-cEB.png
+    - assets/screens/images/mask-group-VdR.png
+    - assets/screens/images/ellipse-43-bg.png
+    - assets/thumbnail/images/-NsH.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
